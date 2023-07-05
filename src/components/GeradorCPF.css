@@ -1,0 +1,9 @@
+button{
+    margin: 1rem;
+}
+input{
+    margin: .5rem;
+    padding: .5rem;
+    border-radius: 1rem;
+    text-align: right;
+}
