@@ -1,5 +1,6 @@
 
 import './App.css'
+import CpfValidator from './components/CPFvalidator'
 import GeradorCPF from './components/GeradorCPF'
 
 function App() {
@@ -7,6 +8,9 @@ function App() {
 
   return (
     <>
+    <div>
+      <CpfValidator />
+    </div>
       <div>
       <GeradorCPF />
       </div>
